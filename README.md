@@ -1,7 +1,7 @@
 # Temporal Relational Modeling with Self-Supervision for Action Segmentation (AAAI'21)
 This repository provides a PyTorch implementation of the paper [Temporal Relational Modeling with Self-Supervision for Action Segmentation](https://arxiv.org/abs/2012.07508).
 
-![](pipeline.png =100x20)
+![framework](pipeline.png)
 
 Tested with:
 - PyTorch 1.6.0
