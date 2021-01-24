@@ -26,3 +26,6 @@ If you use the code, please cite
     D. Wang, H. Di, X. Li, and D. Dou.
     Temporal Relational Modeling with Self-Supervision for Action Segmentation.
     In AAAI Conference on Artificial Intelligence(AAAI), 2021
+
+### Acknowlegements
+This code are borrowed or adapted from [MS-TCN: Multi-Stage Temporal Convolutional Network for Action Segmentation](https://github.com/yabufarha/ms-tcn). Thanks alot for their great work!
