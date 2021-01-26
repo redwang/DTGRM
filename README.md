@@ -11,7 +11,7 @@ Tested with:
 
 * Download the [data](https://mega.nz/#!O6wXlSTS!wcEoDT4Ctq5HRq_hV-aWeVF1_JB3cacQBQqOLjCIbc8) folder, which contains the features and the ground truth labels. (~30GB). We use the same data with [MS-TCN: Multi-Stage Temporal Convolutional Network for Action Segmentation](https://github.com/yabufarha/ms-tcn)
 * Extract it so that you have the `data` folder in the same directory as `main.py`.
-* To train the model run `python main.py --action=train --dataset=DS --split=SP --num_stages=4 --num_layers=10 --num_f_maps=64 --df_size=3` where `DS` is `breakfast`, `50salads` or `gtea`, and `SP` is the split number (1-5) for 50salads and (1-4) for the other datasets. `num_stages`, `num_layers` and `df_size` are the hyper-parameters of the proposed model, which can be changed to other values.
+* To train the model run `python main.py --action=train --dataset=DS --split=SP --num_stages=4 --num_layers=10 --num_f_maps=64 --df_size=3` where `DS` is `breakfast`, `50salads` or `gtea`, and `SP` is the split number (1-5) for 50salads and (1-4) for the other datasets. `num_stages`, `num_layers` and `df_size (order of graphs)` are the hyper-parameters of the proposed model, which can be changed to other values.
 
 ### Prediction:
 
